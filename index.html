@@ -13,10 +13,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link
-   rel="stylesheet"
-   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-/>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 
 </head>
@@ -50,11 +47,22 @@
         <div class="max-width">
             <div class="home-content">
                 <div class="text-1">Hello, my name is</div>
-                <div class="text-2">Pragatheeswaran S</div>
-                <div class="text-3">And I'm a <span class="typing"></span></div>
-                
+                <div class="text-2" id="user-detail-name">Pragatheeswaran S</div>
+                <div class="text-3" id="user-detail-intro">And I'm a <span class="typing"></span></div>
             </div>
         </div>
+        <section class="space">
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+          <span class="star"></span>
+        </section>
     </section>
 
    <!-- about section start -->
@@ -63,7 +71,7 @@
       <h2 class="title">About me</h2>
       <div class="about-content">
         <div class="column left">
-          <img src="./images/profile.jpg" alt="">
+          <img class="home-img" src="./images/profile.jpg" alt="">
         </div>
         <div class="column right">
           <div class="text">I'm Pragathees and I'm a <span class="typing-2"></span></div>
@@ -318,21 +326,21 @@
               <a href="mailto:prags1709@gmail.com"> <i class="fas fa-envelope"></i> </a>
               <div class="info">
                 <div class="head"></div>
-                <div class="sub-title"> <a href="##"> prags1709@gmail.com</a> </div>
+                <div class="sub-title"> <a href="##" id="contact-email"> prags1709@gmail.com</a> </div>
               </div>
             </div>
             <div class="row">
               <a href="https://www.linkedin.com/in/pragatheeswaran-s-55a031247/" target="_blank"> <i class="fab fa-linkedin"></i> </a>
               <div class="info">
                 <!-- <div class="head">Address</div> -->
-                <div class="sub-titles"> <a href="https://www.linkedin.com/in/pragatheeswaran-s-55a031247/" target="_blank">Linkedin - Pragatheeswaran S</a> </div>
+                <div class="sub-titles"> <a href="https://www.linkedin.com/in/pragatheeswaran-s-55a031247/" target="_blank" id="contact-linkedin">Linkedin - Pragatheeswaran S</a> </div>
               </div>
             </div>
             <div class="row">
               <a href="https://github.com/Prags1709" target="_blank"> <i class="fab fa-github"></i> </a>
               <div class="info">
                 <!-- <div class="head">Email</div> -->
-                <div class="sub-title"> <a href="https://github.com/Prags1709" target="_blank">GitHub - Prags1709</a> </div>
+                <div class="sub-title"> <a href="https://github.com/Prags1709" target="_blank" id="contact-github">GitHub - Prags1709</a> </div>
               </div>
             </div>
 
@@ -342,7 +350,7 @@
                 </span> </a>
               <div class="info">
                 <!-- <div class="head">Email</div> -->
-                <div class="sub-title"> +91 9843505668 </div>
+                <div class="sub-title" id="contact-phone"> +91 9843505668 </div>
               </div>
             </div>
 
