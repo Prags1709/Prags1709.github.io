@@ -27,14 +27,14 @@
         <div class="max-width">
             <div class="logo"><a href="#">Port<span>Folio</span></a></div>
             <ul class="menu">
-                <li><a href="#home" class="menu-btn nav-link">Home</a></li>
-                <li><a href="#about" class="menu-btn nav-link">About</a></li>
-                <li><a href="#services" class="menu-btn nav-link">Skills</a></li>
+                <li><a href="#home" class="menu-btn nav-link home">Home</a></li>
+                <li><a href="#about" class="menu-btn nav-link about">About</a></li>
+                <li><a href="#services" class="menu-btn nav-link skills">Skills</a></li>
                 <li><a href="#skills" class="menu-btn nav-link">Tech Stacks</a></li>
-                <li><a href="#project" class="menu-btn nav-link">Projects</a></li>
-                <li><a href="#contact" class="menu-btn nav-link">Contact</a></li>
+                <li><a href="#project" class="menu-btn nav-link projects">Projects</a></li>
+                <li><a href="#contact" class="menu-btn nav-link contact">Contact</a></li>
                 <!-- update resume -->
-                <li><a href="images/Pragatheeswaran S_New-2.0.pdf" class="menu-btn nav-link" id="nav-resume" download="">Resume</a></li>
+                <li id="resume-button-1"><a href="images/Pragatheeswaran S_New-2.0.pdf" class="menu-btn nav-link resume" id="resume-link-1" download="">Resume</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -43,9 +43,9 @@
     </nav>
 
     <!-- home section start -->
-    <section class="home" id="home">
+    <section class="home-b" id="home">
         <div class="max-width">
-            <div class="home-content">
+            <div class="home-b-content">
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2" id="user-detail-name">Pragatheeswaran S</div>
                 <div class="text-3" id="user-detail-intro">And I'm a <span class="typing"></span></div>
@@ -82,7 +82,9 @@
             career.
 
           </p>
-          <a href="images/Pragatheeswaran S_New-2.0.pdf" id="about-resume" download="">Download CV</a>
+          <div id="resume-button-2">
+            <a href="images/Pragatheeswaran S_New-2.0.pdf" id="resume-link-2" download="">Download CV</a>
+          </div>
         </div>
       </div>
     </div>
@@ -121,61 +123,61 @@
     </section>
 
     <!-- skills section start -->
-  <section class="skills" id="skills">
+  <section class="skill-s" id="skills">
     <div class="max-width">
       <h2 class="title">Tech Stack</h2>
-        <div class="skills-content" style="padding-bottom: -01%;">
+        <div class="skill-s-content" style="padding-bottom: -01%;">
 
           <div id="container">
             <div>
-              <img src="./skill-logo/html-5.png" alt="">
-              <p>HTML</p>
+              <img class="skills-card-img" src="./skill-logo/html-5.png" alt="">
+              <p class="skills-card-name">HTML</p>
             </div>
 
             <div>
-              <img src="./skill-logo/css3.png" alt="">
-              <p>CSS</p>
+              <img class="skills-card-img" src="./skill-logo/css3.png" alt="">
+              <p class="skills-card-name">CSS</p>
             </div>
             <div>
-              <img src="./skill-logo/javascript.png" alt="">
-              <p>JavaScript</p>
+              <img class="skills-card-img" src="./skill-logo/javascript.png" alt="">
+              <p class="skills-card-name">JavaScript</p>
             </div>
             <div>
-              <img src="./skill-logo/express.png" alt="">
-              <p>Express</p>
+              <img class="skills-card-img" src="./skill-logo/express.png" alt="">
+              <p class="skills-card-name">Express</p>
             </div>
             <div>
-              <img src="./skill-logo/nodejs.png" alt="">
-              <p>nodeJS</p>
+              <img class="skills-card-img" src="./skill-logo/nodejs.png" alt="">
+              <p class="skills-card-name">nodeJS</p>
             </div>
             <div>
-              <img src="./skill-logo/mongodb.png" alt="">
-              <p>mongodb</p>
+              <img class="skills-card-img" src="./skill-logo/mongodb.png" alt="">
+              <p class="skills-card-name">mongodb</p>
             </div>
             <div>
-              <img src="./skill-logo/bootstrap.png" alt="">
-              <p>Bootstrap</p>
+              <img class="skills-card-img" src="./skill-logo/bootstrap.png" alt="">
+              <p class="skills-card-name">Bootstrap</p>
             </div>
             <div>
-              <img src="./skill-logo/socket.png" alt="">
-              <p>Socket.io</p>
+              <img class="skills-card-img" src="./skill-logo/socket.png" alt="">
+              <p class="skills-card-name">Socket.io</p>
             </div>
             <div>
-              <img src="./skill-logo/github.png" alt="">
-              <p>Github</p>
+              <img class="skills-card-img" src="./skill-logo/github.png" alt="">
+              <p class="skills-card-name">Github</p>
             </div>
             <div>
-              <img src="./skill-logo/aws.png" alt="">
-              <p>AWS</p>
+              <img class="skills-card-img" src="./skill-logo/aws.png" alt="">
+              <p class="skills-card-name">AWS</p>
             </div>
 
             <div>
-              <img src="./skill-logo/algorithm.png" alt="">
-              <p>Algorithm</p>
+              <img class="skills-card-img" src="./skill-logo/algorithm.png" alt="">
+              <p class="skills-card-name">Algorithm</p>
             </div>
             <div>
-              <img src="./skill-logo/netlify.png" alt="">
-              <p>Netlify</p>
+              <img class="skills-card-img" src="./skill-logo/netlify.png" alt="">
+              <p class="skills-card-name">Netlify</p>
             </div>
 
           </div>
@@ -195,15 +197,15 @@
         <div class="card">
           <div class="box">
             <img src="images/epic-1.png" alt="">
-            <div class="text"> Epic Collection</div>
-            <p> <span id="tech">About : </span>This app is a online fashion cloth selling sit in United States and this is clone of Aeropostale. This application allows to buy fashion cloth. I have completed this project in 5 days only</p>
-            <p class="techStack"><span id="tech">Tech Used:</span>Html, CSS, JavaScript, Bootstrap, express.js, mongodb</p>
+            <div class="text project-title"> Epic Collection</div>
+            <p class="project-description"> <span id="tech">About : </span>This app is a online fashion cloth selling sit in United States and this is clone of Aeropostale. This application allows to buy fashion cloth. I have completed this project in 5 days only</p>
+            <p class="techStack project-tech-stack"><span id="tech">Tech Used:</span>Html, CSS, JavaScript, Bootstrap, express.js, mongodb</p>
             <div class="repo-links">
               <div class="repo-div">
-                <span> <a href="https://github.com/Prags1709/wiggly-bucket-6915" target="_blank"> Git Repo </a></span>
+                <span class="project-github-link"> <a href="https://github.com/Prags1709/wiggly-bucket-6915" target="_blank"> Git Repo </a></span>
               </div>
               <div class="demo-div">
-                <span> <a href="https://idyllic-duckanoo-75fda1.netlify.app/" target="_blank"> Live Site </a></span>
+                <span class="project-deployed-link"> <a href="https://idyllic-duckanoo-75fda1.netlify.app/" target="_blank"> Live Site </a></span>
               </div>
             </div>
           </div>
@@ -211,15 +213,15 @@
         <div class="card">
           <div class="box">
             <img src="images/epic-2.png" alt="">
-            <div class="text">Epic collection</div>
-            <p><span id="tech">About : </span> This app is a online fashion cloth selling sit in United States and this is clone of Aeropostale. This application allows to buy fashion cloth. I have completed this project in 5 days only</p>
-            <p class="techStack"><span id="tech">Tech Used:</span> Html, CSS, JavaScript, Bootstrap, express.js, mongodb</p>
+            <div class="text project-title"> Epic Collection</div>
+            <p class="project-description"> <span id="tech">About : </span>This app is a online fashion cloth selling sit in United States and this is clone of Aeropostale. This application allows to buy fashion cloth. I have completed this project in 5 days only</p>
+            <p class="techStack project-tech-stack"><span id="tech">Tech Used:</span>Html, CSS, JavaScript, Bootstrap, express.js, mongodb</p>
             <div class="repo-links">
               <div class="repo-div">
-                <span> <a href="https://github.com/Prags1709/wiggly-bucket-6915" target="_blank"> Git Repo </a></span>
+                <span class="project-github-link"> <a href="https://github.com/Prags1709/wiggly-bucket-6915" target="_blank"> Git Repo </a></span>
               </div>
               <div class="demo-div">
-                <span> <a href="https://idyllic-duckanoo-75fda1.netlify.app/" target="_blank"> Live Site </a></span>
+                <span class="project-deployed-link"> <a href="https://idyllic-duckanoo-75fda1.netlify.app/" target="_blank"> Live Site </a></span>
               </div>
             </div>
           </div>
@@ -227,15 +229,15 @@
         <div class="card">
           <div class="box">
             <img src="images/epic-3.png">
-            <div class="text">Epic collection</div>
-            <p><span id="tech">About : </span>This app is a online fashion cloth selling sit in United States and this is clone of Aeropostale. This application allows to buy fashion cloth. I have completed this project in 5 days only</p>
-            <p class="techStack"><span id="tech">Tech Used:</span>Html, CSS, JavaScript, Bootstrap, express.js, mongodb, GitHub and VSCode. </p>
+            <div class="text project-title"> Epic Collection</div>
+            <p class="project-description"> <span id="tech">About : </span>This app is a online fashion cloth selling sit in United States and this is clone of Aeropostale. This application allows to buy fashion cloth. I have completed this project in 5 days only</p>
+            <p class="techStack project-tech-stack"><span id="tech">Tech Used:</span>Html, CSS, JavaScript, Bootstrap, express.js, mongodb</p>
             <div class="repo-links">
               <div class="repo-div">
-                <span> <a href="https://github.com/Prags1709/wiggly-bucket-6915" target="_blank"> Git Repo </a></span>
+                <span class="project-github-link"> <a href="https://github.com/Prags1709/wiggly-bucket-6915" target="_blank"> Git Repo </a></span>
               </div>
               <div class="demo-div">
-                <span> <a href="https://idyllic-duckanoo-75fda1.netlify.app/" target="_blank"> Live Site </a></span>
+                <span class="project-deployed-link"> <a href="https://idyllic-duckanoo-75fda1.netlify.app/" target="_blank"> Live Site </a></span>
               </div>
             </div>
           </div>
@@ -297,11 +299,11 @@
   </section>
 
      <!-- github status -->
-    <section id="githubCal">
+    <section id="githubCal" id="github-streak-stats" >
         <div id="gitHead">
             <h1>GitHub Calendar</h1>
         </div>
-        <div class="calendar">
+        <div class="calendar" id="github-stats-card" id="github-top-langs">
             <!-- Loading stuff -->
             Loading the data just for you.
         </div>

@@ -37,7 +37,7 @@ section {
 }
 .about,
 .services,
-.skills,
+.skill-s,
 .project,
 .contact,
 footer {
@@ -45,7 +45,7 @@ footer {
 }
 .about .about-content,
 .services .serv-content,
-.skills .skills-content,
+.skill-s .skill-s-content,
 .contact .contact-content {
   display: flex;
   flex-wrap: wrap;
@@ -167,8 +167,8 @@ section .title::after {
   filter: brightness(90%);
 }
 
-/* home section styling */
-.home {
+/* home-b section styling */
+.home-b {
   display: flex;
   background: url("images/galaxy.jpg") no-repeat center;
   background-color: #111;
@@ -296,30 +296,30 @@ section .title::after {
   animation-delay: 2.75s;
   animation-duration: 2.25s;
 }
-.home .max-width {
+.home-b .max-width {
   width: 100%;
   display: flex;
 }
-.home .max-width .row {
+.home-b .max-width .row {
   margin-right: 0;
 }
-.home .home-content .text-1 {
+.home-b .home-b-content .text-1 {
   font-size: 27px;
 }
-.home .home-content .text-2 {
+.home-b .home-b-content .text-2 {
   font-size: 65px;
   font-weight: 600;
   margin-left: -3px;
 }
-.home .home-content .text-3 {
+.home-b .home-b-content .text-3 {
   font-size: 40px;
   margin: 5px 0;
 }
-.home .home-content .text-3 span {
+.home-b .home-b-content .text-3 span {
   color: #00a2e2;
   font-weight: 500;
 }
-.home .home-content a {
+.home-b .home-b-content a {
   display: inline-block;
   background: #00a2e2;
   color: #fff;
@@ -331,7 +331,7 @@ section .title::after {
   border: 2px solid #00a2e2;
   transition: all 0.3s ease;
 }
-.home .home-content a:hover {
+.home-b .home-b-content a:hover {
   color: #00a2e2;
   background: none;
 }
@@ -427,9 +427,9 @@ section .title::after {
   margin: 10px 0 7px 0;
 }
 
-/* skills section styling */
+/* skill-s section styling */
 
-.skills-images img {
+.skill-s-images img {
   height: 100px;
   /* width: 140px; */
   width: calc(80% - 10px);
@@ -442,12 +442,12 @@ section .title::after {
   /* border: 1px solid black; */
   transition: all 0.3s ease;
 }
-.skills .title::after {
+.skill-s .title::after {
   content: "what I know";
 }
 
-/* skills right column */
-.skills .skills-content .column {
+/* skill-s right column */
+.skill-s .skill-s-content .column {
   width: calc(50% - 30px);
   /* border: 2px solid black; */
   height: 70vh;
@@ -466,15 +466,15 @@ section .title::after {
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 
-.skills .skills-content .left .text {
+.skill-s .skill-s-content .left .text {
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 10px;
 }
-.skills .skills-content .left p {
+.skill-s .skill-s-content .left p {
   text-align: justify;
 }
-.skills .skills-content .left a {
+.skill-s .skill-s-content .left a {
   display: inline-block;
   background: #00a2e2;
   color: #fff;
@@ -486,7 +486,7 @@ section .title::after {
   border: 2px solid #00a2e2;
   transition: all 0.3s ease;
 }
-/* .skills .skills-content .left a:hover {
+/* .skill-s .skill-s-content .left a:hover {
   color: #00a2e2;
   background: none;
 } */
@@ -758,13 +758,13 @@ footer span a:hover {
     margin: 20px 0;
     font-size: 25px;
   }
-  .home .home-content .text-2 {
+  .home-b .home-b-content .text-2 {
     font-size: 70px;
   }
-  .home .home-content .text-3 {
+  .home-b .home-b-content .text-3 {
     font-size: 35px;
   }
-  .home .home-content a {
+  .home-b .home-b-content a {
     font-size: 23px;
     padding: 10px 30px;
   }
@@ -789,7 +789,7 @@ footer span a:hover {
     width: calc(50% - 10px);
     margin-bottom: 20px;
   }
-  .skills .skills-content .column,
+  .skill-s .skill-s-content .column,
   .contact .contact-content .column {
     width: 100%;
     margin-bottom: 35px;
@@ -800,13 +800,13 @@ footer span a:hover {
   .max-width {
     padding: 0 23px;
   }
-  .home .home-content .text-2 {
+  .home-b .home-b-content .text-2 {
     font-size: 60px;
   }
-  .home .home-content .text-3 {
+  .home-b .home-b-content .text-3 {
     font-size: 32px;
   }
-  .home .home-content a {
+  .home-b .home-b-content a {
     font-size: 20px;
   }
   .services .serv-content .card {
@@ -827,14 +827,14 @@ footer span a:hover {
 }
 
 @media (max-width: 500px) {
-  .home .home-content .text-2 {
+  .home-b .home-b-content .text-2 {
     font-size: 50px;
   }
-  .home .home-content .text-3 {
+  .home-b .home-b-content .text-3 {
     font-size: 27px;
   }
   .about .about-content .right .text,
-  .skills .skills-content .left .text {
+  .skill-s .skill-s-content .left .text {
     font-size: 19px;
   }
   .contact .right form .fields {
