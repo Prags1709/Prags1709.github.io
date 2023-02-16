@@ -82,3 +82,10 @@ document.getElementById("resume-link-2").onclick = ()=>{
   window.open("https://drive.google.com/file/d/1aBv4ecu0S6WV87s_klkuHkvE0-fQ9Y56/view?usp=share_link",`_blank`)
 }
 
+//git calender
+
+GitHubCalendar(".calendar", "Prags1709", {
+  responsive: true,
+  global_stats: false,
+  tooltips: true,
+});
