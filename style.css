@@ -427,70 +427,108 @@ section .title::after {
   margin: 10px 0 7px 0;
 }
 
-/* skill-s section styling */
-
-.skill-s-images img {
-  height: 100px;
-  /* width: 140px; */
-  width: calc(80% - 10px);
-  /* object-fit: cover; */
-  border-radius: 5%;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
-  /* padding-left: 15px;
-  padding-right: 15px; */
-  padding: 20px;
-  /* border: 1px solid black; */
-  transition: all 0.3s ease;
+#skills{
+  overflow: hidden;
 }
+
 .skill-s .title::after {
   content: "what I know";
 }
 
-/* skill-s right column */
-.skill-s .skill-s-content .column {
-  width: calc(50% - 30px);
-  /* border: 2px solid black; */
-  height: 70vh;
-  display: grid;
-  padding: 5%;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-#container {
+/* #container {
   border: 1px solid red;
+} */
+
+#container img{
+  width: 50%;
+  margin-top: 20px;
 }
 
 #container div{
-  border: 2px solid black;
-  background-color: #00a2e2;
+  width: 180px;
+  height: 180px;
+  padding: 5px;
+  background-image: linear-gradient(180deg, #e2dfdf,#f3f0f0);;
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 
-.skill-s .skill-s-content .left .text {
-  font-size: 20px;
-  font-weight: 400;
-  margin-bottom: 10px;
+#container div:nth-child(even){
+  z-index: 2;
 }
-.skill-s .skill-s-content .left p {
-  text-align: justify;
-}
-.skill-s .skill-s-content .left a {
-  display: inline-block;
-  background: #00a2e2;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 8px 16px;
-  margin-top: 20px;
-  border-radius: 6px;
-  border: 2px solid #00a2e2;
-  transition: all 0.3s ease;
-}
-/* .skill-s .skill-s-content .left a:hover {
-  color: #00a2e2;
-  background: none;
-} */
 
+#container div:nth-child(even):hover {
+  transform: translate(20px, 15px);
+  transition: 500ms;
+}
+
+#container div:nth-child(odd){
+  position: absolute;
+}
+
+#container div:nth-child(1){
+  margin-top: 90px;
+  margin-left: 80px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  background-image: linear-gradient(120deg, #6bcef5,#f7f3f3);;
+}
+
+#container div:nth-child(3){
+  width: 120px;
+  height: 120px;
+  margin-top: 150px;
+  margin-left: 380px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  background-image: linear-gradient(320deg, #2ca4d3,#f7f3f3);;
+}
+
+#container div:nth-child(5){
+  width: 140px;
+  height: 140px;
+  margin-top: 450px;
+  margin-left: 580px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  background-image: linear-gradient(90deg, #288db4,#f7f3f3);;
+}
+
+#container div:nth-child(7){
+  width: 150px;
+  height: 150px;
+  margin-top: 400px;
+  margin-left: 150px;
+  background-image: linear-gradient(320deg, #2ca4d3,#f7f3f3);;
+}
+
+#container div:nth-child(9){
+  width: 90px;
+  height: 90px;
+  margin-top: 10px;
+  margin-left: 420px;
+  background-image: linear-gradient(320deg, #2ca4d3,#f7f3f3);;
+}
+
+#container div:nth-child(11){
+  width: 130px;
+  height: 130px;
+  margin-top: 570px;
+  margin-left: 420px;
+  background-image: linear-gradient(120deg, #2ca4d3,#f7f3f3);;
+}
+
+#container div:nth-child(13){
+  width: 100px;
+  height: 100px;
+  margin-top: 380px;
+  margin-left: 420px;
+  background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+}
+
+#container div:nth-child(15){
+  width: 170px;
+  height: 170px;
+  margin-top: 100px;
+  margin-left: 620px;
+  background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+}
 
 /* project section styling */
 .project .title::after {
@@ -880,14 +918,18 @@ footer span a:hover {
   display: grid;
   grid-template-rows: repeat(4,auto);
   grid-template-columns: repeat(4,auto);
-  gap:100px;
+  gap:60px;
   margin: auto;
 }
 #container>div{
     box-sizing: border-box;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
+}
+
+#container>div>p{
+  margin-top: 15px;
 }
 
 @media screen and ( max-width: 500px ) and (min-width: 0px){
@@ -898,14 +940,82 @@ footer span a:hover {
     margin: auto;
   }
 
+  #container div:nth-child(3){
+    width: 120px;
+    height: 120px;
+    margin-top: 650px;
+    margin-left: -80px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-image: linear-gradient(320deg, #2ca4d3,#f7f3f3);;
+  }
+  
+  #container div:nth-child(5){
+    width: 140px;
+    height: 140px;
+    margin-top: 800px;
+    margin-left: 110px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-image: linear-gradient(90deg, #288db4,#f7f3f3);;
+  }
+
+  #container div:nth-child(9){
+    width: 90px;
+    height: 90px;
+    margin-top: 970px;
+    margin-left: -100px;
+    background-image: linear-gradient(320deg, #2ca4d3,#f7f3f3);;
+  }
+  
+  #container div:nth-child(11){
+    width: 130px;
+    height: 130px;
+    margin-top: 1270px;
+    margin-left: -30px;
+    background-image: linear-gradient(120deg, #2ca4d3,#f7f3f3);;
+  }
+  
+  #container div:nth-child(13){
+    width: 100px;
+    height: 100px;
+    margin-top: 1580px;
+    margin-left: 130px;
+    background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+  }
+  
+  #container div:nth-child(15){
+    width: 170px;
+    height: 170px;
+    margin-top: 1700px;
+    margin-left: -120px;
+    background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+  }
+
 }
-@media screen and (max-width: 1024px) and (min-width: 501px){
+@media screen and (max-width: 1000px) and (min-width: 501px){
   #container{
     grid-template-rows: repeat(auto,auto);
     grid-template-columns: repeat(2,auto);
     gap:100px;
     margin: auto;
   }
+
+  #container div:nth-child(5){
+    width: 140px;
+    height: 140px;
+    margin-top: 950px;
+    margin-left: 180px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-image: linear-gradient(90deg, #288db4,#f7f3f3);;
+  }
+
+  #container div:nth-child(15){
+    width: 170px;
+    height: 170px;
+    margin-top: 710px;
+    margin-left: -120px;
+    background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+  }
+  
 }
 
 /*---------------- GITHUB --------------*/
