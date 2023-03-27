@@ -530,6 +530,79 @@ section .title::after {
   background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
 }
 
+#container div:nth-child(17){
+  width: 170px;
+  height: 170px;
+  margin-top: 590px;
+  margin-left: -60px;
+  background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+}
+
+#container div:nth-child(19){
+  width: 120px;
+  height: 120px;
+  margin-top: 690px;
+  margin-left: 160px;
+  background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+}
+
+#container div:nth-child(21){
+  width: 160px;
+  height: 160px;
+  margin-top: 790px;
+  margin-left: 850px;
+  background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+}
+
+#container div:nth-child(23){
+  width: 115px;
+  height: 115px;
+  margin-top: 860px;
+  margin-left: 400px;
+  background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+}
+
+#container div:nth-child(25){
+  width: 195px;
+  height: 195px;
+  margin-top: 850px;
+  margin-left: -150px;
+  background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+}
+
+#container div:nth-child(27){
+  width: 195px;
+  height: 195px;
+  margin-top: 990px;
+  margin-left: 100px;
+  background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+}
+
+#container div:nth-child(29){
+  width: 125px;
+  height: 125px;
+  margin-top: 1140px;
+  margin-left: 600px;
+  background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+}
+
+#container div:nth-child(31){
+  width: 95px;
+  height: 95px;
+  margin-top: 1210px;
+  margin-left: 900px;
+  background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+}
+
+#container div:nth-child(33){
+  width: 200px;
+  height: 200px;
+  margin-top: 1180px;
+  margin-left: -140px;
+  background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+}
+
+
 /* project section styling */
 .project .title::after {
   content: "see my work";
@@ -958,6 +1031,14 @@ footer span a:hover {
     background-image: linear-gradient(90deg, #288db4,#f7f3f3);;
   }
 
+  #container div:nth-child(7){
+    width: 150px;
+    height: 150px;
+    margin-top: 4500px;
+    margin-left: 10px;
+    background-image: linear-gradient(320deg, #2ca4d3,#f7f3f3);;
+  }
+
   #container div:nth-child(9){
     width: 90px;
     height: 90px;
@@ -977,7 +1058,7 @@ footer span a:hover {
   #container div:nth-child(13){
     width: 100px;
     height: 100px;
-    margin-top: 1580px;
+    margin-top: 3580px;
     margin-left: 130px;
     background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
   }
@@ -987,6 +1068,78 @@ footer span a:hover {
     height: 170px;
     margin-top: 1700px;
     margin-left: -120px;
+    background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+  }
+
+  #container div:nth-child(17){
+    width: 130px;
+    height: 130px;
+    margin-top: 1910px;
+    margin-left: 120px;
+    background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+  }
+
+  #container div:nth-child(19){
+    width: 120px;
+    height: 120px;
+    margin-top: 690px;
+    margin-left: 140px;
+    background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+  }
+  
+  #container div:nth-child(21){
+    width: 160px;
+    height: 160px;
+    margin-top: 1490px;
+    margin-left: 100px;
+    background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+  }
+
+  #container div:nth-child(23){
+    width: 115px;
+    height: 115px;
+    margin-top: 2620px;
+    margin-left: -60px;
+    background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+  }
+
+  #container div:nth-child(25){
+    width: 195px;
+    height: 195px;
+    margin-top: 2350px;
+    margin-left: 60px;
+    background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+  }
+
+  #container div:nth-child(27){
+    width: 145px;
+    height: 145px;
+    margin-top: 3990px;
+    margin-left: -100px;
+    background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+  }
+
+  #container div:nth-child(29){
+    width: 125px;
+    height: 125px;
+    margin-top: 2940px;
+    margin-left: 110px;
+    background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+  }
+
+  #container div:nth-child(31){
+    width: 95px;
+    height: 95px;
+    margin-top: 3210px;
+    margin-left: 100px;
+    background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+  }
+
+  #container div:nth-child(33){
+    width: 200px;
+    height: 200px;
+    margin-top: 2120px;
+    margin-left: -140px;
     background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
   }
 
@@ -1015,7 +1168,78 @@ footer span a:hover {
     margin-left: -120px;
     background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
   }
+
+  #container div:nth-child(17){
+    width: 130px;
+    height: 130px;
+    margin-top: 990px;
+    margin-left: -60px;
+    background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+  }
+
+  #container div:nth-child(19){
+    width: 120px;
+    height: 120px;
+    margin-top: 690px;
+    margin-left: 160px;
+    background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+  }
   
+  #container div:nth-child(21){
+    width: 160px;
+    height: 160px;
+    margin-top: 1490px;
+    margin-left: 100px;
+    background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+  }
+
+  #container div:nth-child(23){
+    width: 115px;
+    height: 115px;
+    margin-top: 1560px;
+    margin-left: 250px;
+    background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+  }
+
+  #container div:nth-child(25){
+    width: 195px;
+    height: 195px;
+    margin-top: 1850px;
+    margin-left: 310px;
+    background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+  }
+
+  #container div:nth-child(27){
+    width: 145px;
+    height: 145px;
+    margin-top: 1890px;
+    margin-left: 100px;
+    background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+  }
+
+  #container div:nth-child(29){
+    width: 125px;
+    height: 125px;
+    margin-top: 1140px;
+    margin-left: 300px;
+    background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+  }
+
+  #container div:nth-child(31){
+    width: 95px;
+    height: 95px;
+    margin-top: 2210px;
+    margin-left: 300px;
+    background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+  }
+
+  #container div:nth-child(33){
+    width: 200px;
+    height: 200px;
+    margin-top: 2120px;
+    margin-left: -140px;
+    background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
+  }
 }
 
 /*---------------- GITHUB --------------*/
