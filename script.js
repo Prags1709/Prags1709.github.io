@@ -74,14 +74,18 @@ $(document).ready(function () {
 
 
 //change the file here
-document.getElementById("resume-button-1").onclick = ()=>{
-  window.open("https://drive.google.com/file/d/1aBv4ecu0S6WV87s_klkuHkvE0-fQ9Y56/view?usp=share_link",`_blank`)
-}
+// document.getElementById("resume-button-1").onclick = ()=>{
+//   window.open("https://drive.google.com/file/d/1aBv4ecu0S6WV87s_klkuHkvE0-fQ9Y56/view?usp=share_link",`_blank`)
+// }
 
-document.getElementById("resume-button-2").onclick = ()=>{
-  window.open("https://drive.google.com/file/d/1aBv4ecu0S6WV87s_klkuHkvE0-fQ9Y56/view?usp=share_link",`_blank`)
-}
+// document.getElementById("resume-button-2").onclick = ()=>{
+//   window.open("https://drive.google.com/file/d/1aBv4ecu0S6WV87s_klkuHkvE0-fQ9Y56/view?usp=share_link",`_blank`)
+// }
 
+function resume(){
+  window.open("Pragatheeswaran S_New-2.0.pdf","_blank")
+}
+//https://drive.google.com/file/d/1aBv4ecu0S6WV87s_klkuHkvE0-fQ9Y56/view?usp=share_link
 //git calender
 
 GitHubCalendar(".calendar", "Prags1709", {
