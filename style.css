@@ -407,6 +407,12 @@ section .title::after {
 .services .serv-content .card:hover {
   background: #00a2e2;
 }
+
+#tech {
+  color: blue;
+  font-size: larger;
+}
+
 .services .serv-content .card .box {
   transition: all 0.3s ease;
 }
@@ -645,7 +651,7 @@ section .title::after {
 
 .repo-div {
   display: flex;
-  width: 35%;
+  width: 38%;
   border: 1px solid white;
   justify-content: center;
   align-items: center;
@@ -653,7 +659,7 @@ section .title::after {
 
 .demo-div {
   display: flex;
-  width: 35%;
+  width: 38%;
   border: 1px solid white;
   justify-content: center;
   align-items: center;
@@ -925,7 +931,7 @@ footer span a:hover {
   }
 }
 
-@media screen and (min-width: 594px) and (max-width: 947px){
+/* @media screen and (min-width: 594px) and (max-width: 947px){
   .about .about-content .left img{
     width: 5%;
   }
@@ -935,7 +941,7 @@ footer span a:hover {
   .about .about-content .left img{
     width: 55%;
   }
-}
+} */
 
 @media (max-width: 500px) {
   .home-b .home-b-content .text-2 {
@@ -1003,6 +1009,13 @@ footer span a:hover {
 
 #container>div>p{
   margin-top: 15px;
+}
+
+#msg {
+  color: #61b752;
+  margin-top: 40px;
+  display: block;
+  font-size: large;
 }
 
 @media screen and ( max-width: 500px ) and (min-width: 0px){
@@ -1241,7 +1254,11 @@ footer span a:hover {
     background-image: linear-gradient(220deg, #2ca4d3,#f7f3f3);;
   }
 }
-
+@media screen and ( max-width: 948px ) and (min-width: 550px){
+  #avatar {
+    width: 38%;
+  }
+}
 /*---------------- GITHUB --------------*/
 #stats>div{
   width: 90%;
@@ -1286,3 +1303,4 @@ margin-left: 5%;
     margin-left: 17%;
   }
 }
+

@@ -83,7 +83,7 @@ $(document).ready(function () {
 // }
 
 function resume(){
-  window.open("Pragatheeswaran S_New-2.0.pdf","_blank")
+  window.open("Pragatheeswaran S_Resume.pdf","_blank")
 }
 //https://drive.google.com/file/d/1aBv4ecu0S6WV87s_klkuHkvE0-fQ9Y56/view?usp=share_link
 //git calender
@@ -93,3 +93,29 @@ GitHubCalendar(".calendar", "Prags1709", {
   global_stats: false,
   tooltips: true,
 });
+
+//Contact form
+
+//Deploy id
+// AKfycbxR0zwBS1w-sGLCxtwQu30k-Aj_h0Kvv30VcAThEmqfVPvRz_M0cCHke0XKKNS8sIpsrQ
+
+
+// https://script.google.com/macros/s/AKfycbxR0zwBS1w-sGLCxtwQu30k-Aj_h0Kvv30VcAThEmqfVPvRz_M0cCHke0XKKNS8sIpsrQ/exec
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxR0zwBS1w-sGLCxtwQu30k-Aj_h0Kvv30VcAThEmqfVPvRz_M0cCHke0XKKNS8sIpsrQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+          msg.innerHTML = `Sending...`;
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+              .then(response => {
+                  msg.innerHTML = "Message sent successfully";
+                  setTimeout(() => {
+                      msg.innerHTML = "";
+                  }, 5000)
+                  form.reset();
+              })
+              .catch(error => console.error('Error!', error.message))
+      })
